@@ -1,0 +1,55 @@
+.button {
+	background-color: #04AA6D;
+	color: white;
+	font-size: 15px;
+	padding: 12px;
+	border: black;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #059862;
+
+}
+
+.div {
+	place-items: center;
+}
+.container {
+	display: grid;
+	grid-template-columns: auto;
+	place-items: center;
+}
+
+.container div {
+	padding: 15px;
+	font-size: 30px;
+	text-align: center;
+	width: 30%;
+}
+
+.head1 {
+	border: 4px gold;
+	outline-width: 10pt;
+	text-align: center;
+
+}
+
+body {
+	background-color: darkgrey;
+}
+
+#excercise-response-table {}
+
+#search-results {
+	border: 2px black;
+}
+
+.table {
+	place-items: center;
+	border: 9px;
+	text-align: center;
+	vertical-align: middle;
+}
