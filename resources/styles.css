@@ -44,7 +44,9 @@ body {
 #excercise-response-table {}
 
 #search-results {
-	border: 2px black;
+    place-items: center;
+    text-align: center;
+    border: 2px black;
 }
 
 .table {
