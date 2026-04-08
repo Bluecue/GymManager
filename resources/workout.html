@@ -8,16 +8,17 @@
 	<link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
+<body style="text-align: center">
 
 	<h1 class="head1">Workout</h1>
 
 	<div>
 		<button class="button" hx-get="/exercises.html" hx-trigger="click" hx-target="#exercise-response-table"
-			hx-swap="innerHTML">
+			hx-swap="outerHTML">
 			Add Exercise
 		</button>
 		<table id="exercise-response-table"></table>
+		<h2> Workout</h2>
 		<table id="current-workout-table"></table>
 
 </body>

@@ -27,6 +27,11 @@
     width: 30%;
 }
 
+#current-workout-table {
+    place-items: center;
+    text-align: center;
+}
+
 .head1 {
     border: 4px gold;
     outline-width: 10pt;
@@ -38,19 +43,18 @@ body {
 }
 
 #exercise-response-table {
-    place-items: center;
     text-align: center;
+    align-items: center;
 }
 
 #search-results {
     place-items: center;
-    text-align: center;
     border: 2px black;
 }
 
-.table {
+/*.table {
     place-items: center;
     border: 9px;
     text-align: center;
     vertical-align: middle;
-}
+}*/
